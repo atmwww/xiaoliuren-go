@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-	"time"
+	_ "time"
 )
 
 //童男童女
@@ -78,6 +78,7 @@ func TongZiMing(sg uint) {
 	}
 }
 
+/*
 func About() {
 	time.Sleep(time.Second * 9)
 	fmt.Println("					六壬通神暄未然\n" +
@@ -89,3 +90,4 @@ func About() {
 	fmt.Println("::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::")
 
 }
+*/
